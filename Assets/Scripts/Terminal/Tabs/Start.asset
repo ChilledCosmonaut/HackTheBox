@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6ca6ca8c01b8e408f819298a067523, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  trigger: 0
+  action: {fileID: 0}
+  description:
+  - "\t\t<<<Hack the Box>>>"
+  - "\t\t<<<Version 1.0>>>"
+  - 
+  - '       @@@@@@@@@@@@@@@@@@'
+  - '     @@@@@@@@@@@@@@@@@@@@@@@'
+  - '   @@@@@@@@@@@@@@@@@@@@@@@@@@@'
+  - '  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
+  - ' @@@@@@@@@@@@@@@/      \@@@/   \'
+  - '@@@@@@@@@@@@@@@|        | |     |'
+  - '@@@@@@@@@@@@@@@@\      @@  @___@'
+  - '@@@@@@@@@@@@@ @@@@@@@@@@  | \@@@@@'
+  - '@@@@@@@@@@@@@ @@@@@@@@@\__@_/@@@@@'
+  - ' @@@@@@@@@@@@@@@/,/,/./''/_|.\''\,\'
+  - '  @@@@@@@@@@@@@|  | | | | | | | |'
+  - '   @@@@@@@@@@@@@|  | | | | | | | |'
+  - '                 \_|_|_|_|_|_|_|_|'
+  - 
+  - Welcome User!
+  - '''Hack the Box'' your all time favorite in Cyber Activism always at your service!'
+  - 'Current Target: Sky Factory'
+  - 'Goal: Main Serverroom'
+  - 
+  - "You\xB4re about to hack into a Z3T Hacking Unit"
+  commands:
+  - commandString: proceed
+    commandAction: To proceed please, enter 'proceed'
+    valueTab: {fileID: 11400000, guid: 826cd8064de20944caef79e81bbf0369, type: 2}
+  - commandString: credits
+    commandAction: To see the credits, enter 'credits'
+    valueTab: {fileID: 11400000, guid: 1a3ec04b907c7364eb75740ff0d295f2, type: 2}
+  - commandString: cancel
+    commandAction: To cancel the hack, enter 'cancel'
+    valueTab: {fileID: 11400000, guid: 72559635756973c428c28c723efc6f56, type: 2}

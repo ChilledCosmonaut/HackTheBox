@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6ca6ca8c01b8e408f819298a067523, type: 3}
+  m_Name: Initializing Hack
+  m_EditorClassIdentifier: 
+  trigger: 0
+  action: {fileID: 0}
+  description:
+  - 
+  - Establishing Connection
+  - 10%
+  - 20%
+  - 30%
+  - 40%
+  - 50%
+  - 60%
+  - 70%
+  - 80%
+  - 90%
+  - 100%
+  - Connection established!
+  - 
+  - Undermining Firewall
+  - 10%
+  - 20%
+  - 30%
+  - 40%
+  - 50%
+  - 60%
+  - 70%
+  - 80%
+  - 90%
+  - 100%
+  - Firewall successfully undermined
+  - 
+  - Secure Connection established!
+  commands:
+  - commandString: y
+    commandAction: To take controll of the Z3T Unit, enter 'y'
+    valueTab: {fileID: 11400000, guid: a61a66d7878100643843d7b2f2d755d0, type: 2}
+  - commandString: n
+    commandAction: To get back to the start, enter'n'
+    valueTab: {fileID: 11400000, guid: b9f58e2c07a794948b714c8bdb8d8dbf, type: 2}

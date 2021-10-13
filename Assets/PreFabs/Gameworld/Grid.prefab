@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3403523779965462190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3403523779965462176}
+  - component: {fileID: 3403523779965462191}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3403523779965462176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403523779965462190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.2174163, y: 6.88157, z: 1.5923234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3403523779965462191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403523779965462190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280cf450f9fcd5d48acb1d7693c0133d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows: 80
+  colums: 80
+  scale: 4
+  gridPrefab: {fileID: 4369559000070051607, guid: 1e9ec0744341f2e41b136080d644f4ac,
+    type: 3}
+  leftBottomLocation: {x: 0, y: 0, z: 0}
+  round: 1
+  max_range: 8
+  playerCounter: 0
+  Players: []
+  startX: 0
+  startY: 0
+  endX: 0
+  endY: 0
+  path: []
+  Red: {r: 1, g: 0, b: 0, a: 0.5}
+  White: {r: 0, g: 0, b: 0, a: 0}
+  Blue: {r: 0, g: 191, b: 255, a: 0.5}

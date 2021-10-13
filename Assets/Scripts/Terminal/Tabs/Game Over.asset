@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e6ca6ca8c01b8e408f819298a067523, type: 3}
+  m_Name: Game Over
+  m_EditorClassIdentifier: 
+  trigger: 0
+  action: {fileID: 0}
+  description:
+  - Connection to the Z3T lost!
+  - Should connection be reestablished?
+  commands:
+  - commandString: y
+    commandAction: To reconnect, enter 'y'
+    valueTab: {fileID: 11400000, guid: 25c8bc76f41a22648b9156f38e825dd0, type: 2}
+  - commandString: n
+    commandAction: To cancel the hack, enter 'n'
+    valueTab: {fileID: 11400000, guid: 72559635756973c428c28c723efc6f56, type: 2}
